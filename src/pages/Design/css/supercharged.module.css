@@ -1,0 +1,123 @@
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 913px;
+  
+}
+
+.contenedor h2 {
+    font-size: 46px;
+    letter-spacing: -1.68px;
+    font-family: gotham-book;
+    padding: 74px 0 0 0;
+}
+
+.contenedor h3 {
+    font-family: gotham-ligth;
+    padding: 0 0 50px 0;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 160px;
+}
+
+.infoText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.infoText p {
+    font-size: 28px;
+    letter-spacing: -0.84px;
+    font-family: gotham-ligth;
+    max-width: 467px;
+    padding: 40px 10px;
+}
+
+.infoText p span {
+    font-family: gotham-medium;
+}
+
+.infoImg {
+    max-width: 493px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.infoImg p {
+    text-align: center;
+    font-size: 21px;
+    padding: 29px;
+    font-family: gotham-bold;
+}
+
+.zoom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 30px;
+    padding: 40px 0;
+}
+
+.zoom img {
+    border-radius: 30px;
+    width: 184px;
+}
+
+.blue {
+    color: #6792C9;
+}
+
+.blue h4 {
+    font-size: 27px;
+    font-family: gotham-black;
+}
+.blue p{
+    font-family: gotham-book;
+    font-size: 21px;
+    padding: 0;
+}
+
+.red {
+    color: #E2817F;
+}
+
+.red h4 {
+    font-size: 27px;
+    font-family: gotham-black;
+}
+
+.red p{
+    font-family: gotham-book;
+    font-size: 21px;
+    padding: 0;
+}
+
+@media(min-width: 920px){
+    .zoom{
+        width: 600px;
+    }
+    .contenedor h2{
+        font-size: 56px;
+    }
+    .info{
+        flex-direction: row;
+    }
+    .zoom {
+        flex-direction: row;
+        padding: 0;
+    }
+
+}

@@ -1,0 +1,117 @@
+@font-face {
+  font-family: 'gotham-black';
+  src: url('./assets/fonts/Gotham-Black.otf');
+}
+@font-face {
+  font-family: 'gotham-bold';
+  src: url('./assets/fonts/Gotham-Bold.otf');
+}
+
+@font-face {
+  font-family: 'gotham-book';
+  src: url('./assets/fonts/Gotham-XLight.otf');
+}
+
+@font-face {
+  font-family: 'gotham-medium';
+  src: url('./assets/fonts/GothamMedium.ttf');
+}
+
+
+@font-face {
+  font-family: 'gotham-ligth';
+  src: url('./assets/fonts/Gotham-Light.otf');
+}
+
+@font-face {
+  font-family: 'Helvetica-bold';
+  src: url('./assets/fonts/Helvetica_bold.ttf');
+}
+
+@font-face {
+  font-family: 'Helvetica-ligth';
+  src: url('./assets/fonts/Helvetica_light.otf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: gotham-medium;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+body::-webkit-scrollbar {
+  width: 0;
+}
+
+.container {
+  max-width: 1416px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.helvetica-h1 {
+  font-family: Helvetica-ligth;
+  font-size: 7vw;
+  padding: 10px 0 23px 0;
+}
+
+.tx-center {
+  text-align: center;
+}
+
+.globo {
+  width: 100%;
+  height: 150px;
+  background-color: #eee;
+  margin: 0 0 30px 0;
+}
+
+.contenido {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.contenido::before {
+  content: '';
+  width: 35px;
+  height: 35px;
+  background-color: #eee;
+  position: absolute;
+  bottom: -35px;
+  clip-path: polygon(0 0, 100% 0, 100% 100%);
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.blue-text {
+  font-family: gotham-bold;
+  color: #2570B2;
+}
+
+.bg-gray {
+  background-color: #ECECEC;
+}
+
+@media (min-width: 768px) {
+  .helvetica-h1 {
+    font-family: Helvetica-ligth;
+    font-size: 47px;
+    padding: 10px 0 23px 0;
+  }
+}

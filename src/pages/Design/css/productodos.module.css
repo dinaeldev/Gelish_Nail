@@ -1,0 +1,102 @@
+.title {
+    font-family: gotham-book;
+    font-size: 50px;
+    letter-spacing: -1.5px;
+    line-height: 70px;
+    padding: 70px 0 138px 0;
+    color: #666666;
+}
+
+.productoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 80px;
+}
+
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+    margin: 19px 0;
+    font-size: 25px;
+    font-family: gotham-book;
+    letter-spacing: 0.75px;
+    color: #666666;
+}
+
+.letra {
+    min-width: 44px;
+    min-height: 44px;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dataContainer>.item:nth-child(1)>.letra {
+    background-color: #3F3B90;
+}
+
+.dataContainer>.item:nth-child(2)>.letra {
+    background-color: #3F3B90;
+}
+
+.dataContainer>.item:nth-child(3)>.letra {
+    background-color: #3F3B90;
+}
+
+.dataContainer>.item:nth-child(4)>.letra {
+    background-color: #246BAA;
+}
+
+.dataContainer>.item:nth-child(5)>.letra {
+    background-color: #246BAA;
+}
+
+.dataContainer>.item:nth-child(6)>.letra {
+    background-color: #246BAA;
+}
+
+.dataContainer>.item:nth-child(7)>.letra {
+    background-color: #246BAA;
+}
+
+.dataContainer>.item:nth-child(8)>.letra {
+    background-color: #246BAA;
+}
+
+.dataContainer>.item:nth-child(9)>.letra {
+    background-color: #15A5CD;
+}
+
+.dataContainer>.item:nth-child(10)>.letra {
+    background-color: #15A5CD;
+}
+
+.text {
+    max-width: 434px;
+    letter-spacing: -0.75px;
+    font-size: 25px;
+    font-family: gotham-ligth;
+}
+
+@media (min-width: 920px) {
+    .productoContainer {
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    .imagenContainer {
+        width: 781px;
+    }
+
+    .dataContainer {
+        width: 635px;
+    }
+}

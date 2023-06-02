@@ -1,0 +1,42 @@
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 341px;
+    flex-wrap: wrap;
+    padding: 0 70px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 410px;
+    width: 100%;
+    text-align: center;
+}
+
+.card h4{
+    font-family: gotham-bold;
+    font-size: 22px;
+    letter-spacing: -0.66px;
+}
+
+.card p{
+    font-family: gotham-book;
+    font-size: 22px;
+    letter-spacing: -0.66px;
+    padding-bottom: 15px;
+}
+.card span{
+    font-family: gotham-ligth;
+    font-size: 20px;
+    letter-spacing: -0.6px;
+}
+.card div{
+    font-family: gotham-ligth;
+    font-size: 18px;
+    letter-spacing: -0.54px;
+    padding-bottom: 20px;
+}

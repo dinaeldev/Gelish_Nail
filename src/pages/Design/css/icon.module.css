@@ -1,0 +1,28 @@
+.iconContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 48px;
+    padding: 113px 0;
+}
+
+.iconCard{
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.iconCard p{
+    font-family: gotham-book;
+    font-size: 22px;
+    letter-spacing: -0.66px;
+    text-align: center;
+    font-weight: 500;
+}
+.iconCard img{
+    width: 113px;
+    height: 113px;
+}
+
